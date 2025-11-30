@@ -84,6 +84,7 @@ h1 {
     font-size: 2rem;
     line-height: 2;
     text-align: left;
+    justify-content: center;
     margin-left: 20px;
 }
 
