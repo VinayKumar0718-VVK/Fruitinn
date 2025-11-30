@@ -1,0 +1,96 @@
+    body{
+        font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, 
+        #ffd6f5, 
+        #ff9ecd 30%, 
+        #ff9a9a 50%, 
+        #ffb347 80%, 
+        #ff8c33);
+    background-attachment: fixed;
+    color: #333;
+    min-height: 100vh;
+    line-height: 1.7;
+    }
+/* FruitInn About Page Styles */
+.about-fruitinn {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.main-heading {
+  font-family: 'Pacifico', cursive;
+  font-size: 4.5rem;
+  color: #4f28de;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.6rem;
+  color: #f4a261;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.about-text p {
+  font-size: 1.15rem;
+  color: #444;
+  margin-bottom: 1.3rem;
+}
+
+.highlights {
+  margin: 2.5rem 0;
+}
+
+.highlight {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.highlight .emoji {
+  font-size: 2rem;
+}
+
+.delivery-img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(255, 107, 53, 0.2);
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  background: #ff6b35;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background: #e65a26;
+  transform: scale(1.05);
+}
+
+/* Mobile */
+@media (max-width: 868px) {
+  .about-fruitinn {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .main-heading { font-size: 3.5rem; }
+  .delivery-img { max-width: 320px; }
+}
+
+a{
+    margin-left: 400px;
+}
