@@ -103,6 +103,7 @@ h1 {
 
 .premium .pack-title,
 .premium .price {
+    padding: auto;
     color: #000;
 }
 
