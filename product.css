@@ -76,6 +76,9 @@ h1 {
     font-weight: 700;
 }
 
+.packs img {
+    border-radius: 100px;
+}
 .details {
     font-size: 1.15rem;
     line-height: 2;
